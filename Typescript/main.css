@@ -1,0 +1,88 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://example.com/hero.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.header .display-4 {
+    font-weight: bold;
+}
+
+.header .btn-primary {
+    font-size: 1.2em;
+    padding: 10px 30px;
+}
+
+/* Features Section Styling */
+.features .icon {
+    font-size: 3em;
+    color: #007bff;
+}
+
+.features h4 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.features p {
+    color: #666;
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+    background: #f9f9f9;
+}
+
+.testimonial {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #333;
+}
+/* CSS for Section-Specific Background */
+.header {
+    background: url('/Users/bovini/Documents/Typescript/back.jpeg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+    position: relative;
+    text-align: center;
+    opacity: 50;
+}
+
+/* Footer Styling */
+.footer {
+    background: #333;
+    color: #fff;
+}
+
+/* Greeting Text Styling */
+.greeting {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* Scroll Animation */
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
